@@ -56,7 +56,7 @@
       <div class="p-5 mb-4 bg-dark text-white">
         <div class="container py-5">
           <div class="row g-3">
-            <div class="col-md-8 col-sm-12 info">
+            <div class="col-lg-8 col-md-12 col-sm-12 info">
               <h1 class="display-5 fw-bold">Risha Kurnia Fitri</h1>
               <p class="fs-5">
                 Saya seorang mahasiswa aktif yang memiliki ketertarikan pada
@@ -66,13 +66,16 @@
                 organisasi mahasiswa dan pengalaman project seperti Program
                 Mahasiswa Wirausaha.
               </p>
-              <div class="d-flex">
+              <div class="d-flex justify-content-lg-start justify-content-md-center justify-content-sm-center">
                 <a href="http://instagram.com/rishakr" class="nav-link fs-4" target="_blank">
                   <i class="bi bi-instagram"></i>
                 </a>
+                <a href="http://github.com/rishakurniaf" class="nav-link fs-4 mx-2" target="_blank">
+                  <i class="bi bi-github"></i>
+                </a>
               </div>
             </div>
-            <div class="col-md-4 col-sm-12">
+            <div class="col-lg-4 col-md-12 col-sm-12">
               <div class="d-flex align-items-center justify-content-center">
                 <img src="assets/images/profil.png" alt="" class="rounded-circle w-75" />
               </div>
@@ -90,22 +93,22 @@
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
               <i class="bi bi-mortarboard-fill"></i>
             </div>
-            <h3 class="fs-2 text-body-emphasis">SDN Perak Barat</h3>
-            <p>2009 - 2014</p>
-          </div>
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
-              <i class="bi bi-mortarboard-fill"></i>
-            </div>
-            <h3 class="fs-2 text-body-emphasis">SMPN 2 Surabaya</h3>
+            <h3 class="fs-4 text-body-emphasis">SMPN 2 Surabaya</h3>
             <p>2005 - 2017</p>
           </div>
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
               <i class="bi bi-mortarboard-fill"></i>
             </div>
-            <h3 class="fs-2 text-body-emphasis">SMAN 7 Surabaya</h3>
-            <p>2018 - 2020</p>
+            <h3 class="fs-4 text-body-emphasis">SMAN 7 Surabaya</h3>
+            <p> <span class="fw-bold">Jurusan Ilmu Pengetahuan Alam (IPA)</span> <br> 2018 - 2020</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
+              <i class="bi bi-mortarboard-fill"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">Universitas Negeri Surabaya</h3>
+            <p> <span class="fw-bold">Prodi D4 Manajemen Informatika</span> <br> 2020 - Sekarang</p>
           </div>
         </div>
       </div>
@@ -114,16 +117,7 @@
     <section id="pengalaman">
       <div class="container px-4 py-3" id="featured-3">
         <h2 class="pb-2 border-bottom">Pengalaman Organisasi</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
-          <div class="feature col">
-            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
-              <i class="bi bi-people-fill"></i>
-            </div>
-            <h3 class="fs-4 text-body-emphasis">
-              Karang Taruna Kampung Gurami, Perak Barat
-            </h3>
-            <p>2015 - 2017</p>
-          </div>
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-2">
           <div class="feature col">
             <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
               <i class="bi bi-people-fill"></i>
@@ -141,6 +135,24 @@
               Himpunan Mahasiswa Prodi Manajemen Informatika
             </h3>
             <p>2021 - 2022</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">
+              Ketua Program Mahasiswa Wirausaha Tingkat Vokasi (Universitas Negeri Surabaya)
+            </h3>
+            <p>Mei 2022 - November 2022</p>
+          </div>
+          <div class="feature col">
+            <div class="feature-icon d-inline-flex align-items-center justify-content-center text-bg-primary bg-gradient fs-2 mb-3 px-2 rounded">
+              <i class="bi bi-people-fill"></i>
+            </div>
+            <h3 class="fs-4 text-body-emphasis">
+              Ketua Pelaksana Program Kerja Himpunan Mahasiswa Manajemen Informatika
+            </h3>
+            <p>Agustus 2022 - November 2022</p>
           </div>
         </div>
       </div>
@@ -164,15 +176,42 @@
     <section id="kemampuan">
       <div class="container px-4 py-3" id="featured-3">
         <h2 class="pb-2 border-bottom">Kemampuan</h2>
-        <div class="row g-4 py-5 row-cols-1 row-cols-lg-3">
+        <div class="row g-4 py-5 row-cols-1 row-cols-lg-4">
           <div class="feature col">
             <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
-              <div class="progress-bar" style="width: 100%">100%</div>
+              <div class="progress-bar progress-bar-striped" style="width: 100%">100%</div>
             </div>
             <h3 class="fs-5 text-body-emphasis mt-2">Expert</h3>
             <p>
               Mengoperasikan Microsoft Office (Ms.Word, Ms. Excel, Ms. Power
               Point)
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-success" style="width: 100%">100%</div>
+            </div>
+            <h3 class="fs-5 text-body-emphasis mt-2">Expert</h3>
+            <p>
+              Email Administration (Gmail)
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-danger" style="width: 100%">100%</div>
+            </div>
+            <h3 class="fs-5 text-body-emphasis mt-2">Expert</h3>
+            <p>
+              Google Office Suites
+            </p>
+          </div>
+          <div class="feature col">
+            <div class="progress" role="progressbar" aria-label="Example with label" aria-valuenow="100" aria-valuemin="0" aria-valuemax="100">
+              <div class="progress-bar progress-bar-striped bg-warning" style="width: 100%">100%</div>
+            </div>
+            <h3 class="fs-5 text-body-emphasis mt-2">Expert</h3>
+            <p>
+              Bahasa Indonesia
             </p>
           </div>
         </div>
